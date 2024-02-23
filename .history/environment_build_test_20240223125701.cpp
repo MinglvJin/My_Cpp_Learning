@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char* argv[]){
     
     if(argc<2){
-        cout<<"Please Enter a positive number"<<endl;
+        cout<<"请输入一个正数"<<endl;
     }
 
     const double inputValue = atof(argv[1]);

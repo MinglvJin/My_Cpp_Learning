@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "H:\C++ Learning Programs\My_Cpp_Learning"
+CMAKE_SOURCE_DIR = D:\My_Cpp_Learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "H:\C++ Learning Programs\My_Cpp_Learning\build"
+CMAKE_BINARY_DIR = D:\My_Cpp_Learning\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "H:\C++ Learning Programs\My_Cpp_Learning\build\CMakeFiles" "H:\C++ Learning Programs\My_Cpp_Learning\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\My_Cpp_Learning\build\CMakeFiles D:\My_Cpp_Learning\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "H:\C++ Learning Programs\My_Cpp_Learning\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\My_Cpp_Learning\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,53 @@ CMake_Env_Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/build
 .PHONY : CMake_Env_Test/fast
 
-environment_build_test.obj: environment_build_test.cpp.obj
-.PHONY : environment_build_test.obj
+src/Log.obj: src/Log.cpp.obj
+.PHONY : src/Log.obj
 
 # target to build an object file
-environment_build_test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj
-.PHONY : environment_build_test.cpp.obj
+src/Log.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj
+.PHONY : src/Log.cpp.obj
 
-environment_build_test.i: environment_build_test.cpp.i
-.PHONY : environment_build_test.i
+src/Log.i: src/Log.cpp.i
+.PHONY : src/Log.i
 
 # target to preprocess a source file
-environment_build_test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.i
-.PHONY : environment_build_test.cpp.i
+src/Log.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.i
+.PHONY : src/Log.cpp.i
 
-environment_build_test.s: environment_build_test.cpp.s
-.PHONY : environment_build_test.s
+src/Log.s: src/Log.cpp.s
+.PHONY : src/Log.s
 
 # target to generate assembly for a file
-environment_build_test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.s
-.PHONY : environment_build_test.cpp.s
+src/Log.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.s
+.PHONY : src/Log.cpp.s
+
+src/environment_build_test.obj: src/environment_build_test.cpp.obj
+.PHONY : src/environment_build_test.obj
+
+# target to build an object file
+src/environment_build_test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj
+.PHONY : src/environment_build_test.cpp.obj
+
+src/environment_build_test.i: src/environment_build_test.cpp.i
+.PHONY : src/environment_build_test.i
+
+# target to preprocess a source file
+src/environment_build_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.i
+.PHONY : src/environment_build_test.cpp.i
+
+src/environment_build_test.s: src/environment_build_test.cpp.s
+.PHONY : src/environment_build_test.s
+
+# target to generate assembly for a file
+src/environment_build_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMake_Env_Test.dir\build.make CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.s
+.PHONY : src/environment_build_test.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CMake_Env_Test
-	@echo ... environment_build_test.obj
-	@echo ... environment_build_test.i
-	@echo ... environment_build_test.s
+	@echo ... src/Log.obj
+	@echo ... src/Log.i
+	@echo ... src/Log.s
+	@echo ... src/environment_build_test.obj
+	@echo ... src/environment_build_test.i
+	@echo ... src/environment_build_test.s
 .PHONY : help
 
 

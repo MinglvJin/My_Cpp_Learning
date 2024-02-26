@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "H:\C++ Learning Programs\My_Cpp_Learning"
+CMAKE_SOURCE_DIR = D:\My_Cpp_Learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "H:\C++ Learning Programs\My_Cpp_Learning\build"
+CMAKE_BINARY_DIR = D:\My_Cpp_Learning\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CMake_Env_Test.dir/depend.make
@@ -68,33 +68,51 @@ include CMakeFiles/CMake_Env_Test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CMake_Env_Test.dir/flags.make
 
-CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj: CMakeFiles/CMake_Env_Test.dir/flags.make
-CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj: H:/C++\ Learning\ Programs/My_Cpp_Learning/environment_build_test.cpp
-CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj: CMakeFiles/CMake_Env_Test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="H:\C++ Learning Programs\My_Cpp_Learning\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj -MF CMakeFiles\CMake_Env_Test.dir\environment_build_test.cpp.obj.d -o CMakeFiles\CMake_Env_Test.dir\environment_build_test.cpp.obj -c "H:\C++ Learning Programs\My_Cpp_Learning\environment_build_test.cpp"
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj: CMakeFiles/CMake_Env_Test.dir/flags.make
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj: CMakeFiles/CMake_Env_Test.dir/includes_CXX.rsp
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj: D:/My_Cpp_Learning/src/Log.cpp
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj: CMakeFiles/CMake_Env_Test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\My_Cpp_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj -MF CMakeFiles\CMake_Env_Test.dir\src\Log.cpp.obj.d -o CMakeFiles\CMake_Env_Test.dir\src\Log.cpp.obj -c D:\My_Cpp_Learning\src\Log.cpp
 
-CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.i"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "H:\C++ Learning Programs\My_Cpp_Learning\environment_build_test.cpp" > CMakeFiles\CMake_Env_Test.dir\environment_build_test.cpp.i
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.i"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\My_Cpp_Learning\src\Log.cpp > CMakeFiles\CMake_Env_Test.dir\src\Log.cpp.i
 
-CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.s"
-	C:\PROGRA~1\MINGW-~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "H:\C++ Learning Programs\My_Cpp_Learning\environment_build_test.cpp" -o CMakeFiles\CMake_Env_Test.dir\environment_build_test.cpp.s
+CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.s"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\My_Cpp_Learning\src\Log.cpp -o CMakeFiles\CMake_Env_Test.dir\src\Log.cpp.s
+
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj: CMakeFiles/CMake_Env_Test.dir/flags.make
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj: CMakeFiles/CMake_Env_Test.dir/includes_CXX.rsp
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj: D:/My_Cpp_Learning/src/environment_build_test.cpp
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj: CMakeFiles/CMake_Env_Test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\My_Cpp_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj -MF CMakeFiles\CMake_Env_Test.dir\src\environment_build_test.cpp.obj.d -o CMakeFiles\CMake_Env_Test.dir\src\environment_build_test.cpp.obj -c D:\My_Cpp_Learning\src\environment_build_test.cpp
+
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.i"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\My_Cpp_Learning\src\environment_build_test.cpp > CMakeFiles\CMake_Env_Test.dir\src\environment_build_test.cpp.i
+
+CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.s"
+	C:\PROGRA~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\My_Cpp_Learning\src\environment_build_test.cpp -o CMakeFiles\CMake_Env_Test.dir\src\environment_build_test.cpp.s
 
 # Object files for target CMake_Env_Test
 CMake_Env_Test_OBJECTS = \
-"CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj"
+"CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj" \
+"CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj"
 
 # External object files for target CMake_Env_Test
 CMake_Env_Test_EXTERNAL_OBJECTS =
 
-CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/environment_build_test.cpp.obj
+CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/src/Log.cpp.obj
+CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/src/environment_build_test.cpp.obj
 CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/build.make
 CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/linkLibs.rsp
 CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/objects1.rsp
 CMake_Env_Test.exe: CMakeFiles/CMake_Env_Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="H:\C++ Learning Programs\My_Cpp_Learning\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CMake_Env_Test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\My_Cpp_Learning\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CMake_Env_Test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CMake_Env_Test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +124,6 @@ CMakeFiles/CMake_Env_Test.dir/clean:
 .PHONY : CMakeFiles/CMake_Env_Test.dir/clean
 
 CMakeFiles/CMake_Env_Test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "H:\C++ Learning Programs\My_Cpp_Learning" "H:\C++ Learning Programs\My_Cpp_Learning" "H:\C++ Learning Programs\My_Cpp_Learning\build" "H:\C++ Learning Programs\My_Cpp_Learning\build" "H:\C++ Learning Programs\My_Cpp_Learning\build\CMakeFiles\CMake_Env_Test.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\My_Cpp_Learning D:\My_Cpp_Learning D:\My_Cpp_Learning\build D:\My_Cpp_Learning\build D:\My_Cpp_Learning\build\CMakeFiles\CMake_Env_Test.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CMake_Env_Test.dir/depend
 

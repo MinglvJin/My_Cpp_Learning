@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string>
 #include <cmath>
+#include "..\inc\Log.h"
+
 using namespace std;
 
 int main(int argc, char* argv[]){
@@ -9,7 +11,7 @@ int main(int argc, char* argv[]){
     if(argc<2){
         cout<<"Please Enter a positive number"<<endl;
     }
-
+    Log("into Log");
     const double inputValue = atof(argv[1]);
 
     // calculate square root

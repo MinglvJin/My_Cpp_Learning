@@ -13,3 +13,10 @@ main.cpp 中 include 了 Log.h 和 Common.h，而 Common.h 中 include 了 Log.h
 #define _LOG_H  
 ...  
 #endif  
+
+#### "xxx.h" 和 \<xxx.h\>的区别  
+"xxx.h"表示这个Header File的位置与main.cpp有关，可以在“...”里面使用相对位置描述，当然你也可以用 #include “iostream”   
+而\<xxx.h\>表示是这个Header File的位置与main.cpp无关  
+
+C标准库文件一般以.h结尾，C++标准库一般没有拓展名  
+

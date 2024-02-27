@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <cmath>
-#include "..\inc\Log.h"
+#include "Log.h"
 
 using namespace std;
 
